@@ -1,0 +1,334 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0; 
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    flex-direction: column;
+    height: 100vh;
+    background-color: white;
+    padding: 1.5rem 2rem;
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 1rem;
+}
+
+header{
+    margin-bottom: 3rem;
+}
+header .navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .navbar .logo a{
+    font-weight: 500;
+    font-size: 1.5rem;
+}
+.logo a{
+    font-size: 1.5rem;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.logo a img{
+    width: 50px;
+}
+
+.logo a h1{
+    font-size: 1.5rem;
+    color: #BE3144;
+}
+
+.logo a h1 span{
+    color: black;
+}
+
+header .navbar .search{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 999px;
+    border: 2px solid lightgrey;
+    padding: .5rem 1rem;
+    width: 320px;
+}
+
+header .navbar .search input{
+    border: none;
+}
+
+header .navbar .more-button a button{
+    background: none;
+    border: none;
+    font-size: .8rem;
+    font-weight: 700;
+}
+
+main{
+    display: flex;
+    gap: 3rem;
+}
+
+main .social-media{
+    display: flex;
+    align-items: center;
+}
+
+main .media-icon{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+main .media-icon .linkedin img{
+    width: 30px;
+}
+
+main .media-icon .github img{
+    width: 30px;
+}
+
+main .media-icon .twitter img{
+    width: 30px;
+}
+
+main .law1{
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+}
+
+main .law2{
+    margin-top: 150px;
+}
+
+main .law1 .main-law1{
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+    border-radius: 50px;
+    box-shadow: 5px -2px 15px rgba(0, 0, 0, 0.3);
+    padding: 1rem 2rem;
+}
+
+main .main-law1 .law1-image{
+    display: flex;
+    padding-left: 50px;
+}
+
+main .main-law1 .law1-image img{
+    width: 165px;
+}
+
+main .main-law1 .law1-head h1{
+    font-size: 13px;
+    color: #BE3144;
+}
+
+main .main-law1 .law1-title h1{
+    font-size: 12px;
+}
+
+main .main-law1 .law1-para p{
+    font-size: 12px;
+}
+
+main .main-law1 .law1-more{
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+}
+
+main .main-law1 .law1-more a{
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+}
+
+main .main-law1 .law1-more p{
+    color: rgb(190, 187, 187);
+    font-size: 12px;
+}
+
+main .main-law1 .law1-more svg{
+    margin-top: 1.5px;
+}
+
+.footer-container{
+    display: flex;
+    align-items: center;
+    padding: 2rem 2rem;
+    padding-bottom: 0;
+    border-radius: 50px;
+    margin-bottom: 20px;
+    margin-top: 100px;
+    gap: 3rem;
+    box-shadow: 10px -5px 25px rgba(0, 0, 0, 0.3);
+}
+
+
+.footer-title{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-sec{
+    display: flex;
+    flex: 2;
+}
+
+.footer-title .footer-text{
+    justify-content: center;
+    align-items: center;
+}
+
+
+.footer-title .footer-image img{
+    width: 170px;
+    height: auto;
+}
+
+.footer-headline{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 100px;
+}
+
+.footer-headline h1{
+    font-size: 50px;
+    color: #BE3144;
+}
+
+.footer-aside{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.footer-aside .footer-image-aside img{
+    width: 170px;
+    height: auto;
+    margin-top: -180px;
+}
+
+.footer-aside .footer-button-aside a button{
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 999px;
+    padding: .5rem 2.5rem;
+    font-size: 1.3rem;
+    margin-top: 30px;
+}
+
+.footer-social{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    margin-bottom: 10px;
+    padding: 0 1rem;
+}
+
+.footer-social .navfoot .links-footer{
+    display: flex;
+    gap: 3rem;
+}
+
+.footer-social .navfoot .links-footer li a{
+    font-size: 13px;
+}
+
+.social-media{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1rem;
+    padding-bottom: 2rem;
+}
+
+.social-media .copyright p{
+    font-size: 10px;
+}
+
+.social-media .media-icon{
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.media-icon .linkedin img{
+    width: 30px;
+}
+
+.media-icon .github img{
+    width: 30px;
+}
+
+.media-icon .twitter img{
+    width: 30px;
+}
+
+.headline .headline-image img{
+    width: 430px;
+    height: auto;
+}
+
+.headline{
+    display: flex;
+    align-items: center;
+    margin-bottom: 6rem;
+    gap: 1rem;
+
+}
+
+.headline .headline-text{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.headline .headline-text .main-headline h1{
+    color: #BE3144;
+    font-size: 2rem;
+}
+
+.headline .headline-text .headline-quotes p{
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+.headline .headline-text .headline-quotes{
+    padding-left: 4rem;
+}
+
+.headline .headline-text .headline-highlight{
+    display: flex;
+    flex-direction: column;
+    gap: .2rem;
+}
+.headline .headline-text .headline-highlight h1{
+    background-color: #b9cfb1;
+    width: fit-content;
+    padding: 0 .5rem;
+}
